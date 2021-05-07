@@ -1,0 +1,149 @@
+body {
+    text-align: center;
+}
+
+#override .navbar {
+    background: rgba( 255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6.5px);
+    -webkit-backdrop-filter: blur( 6.5px);
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+#override .navbar-brand {
+    padding-left: 50px;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.nav-item {
+    padding-right: 25px;
+}
+
+.nav-link {
+    transition: 0.7s;
+}
+
+.nav-link:hover {
+    transition: 0.7s;
+}
+
+.nav-btns {
+    margin-left: auto;
+    margin-right: 150px;
+    font-size: 1.2rem;
+}
+
+#title {
+    padding: 100px 0 400px 0;
+    font-family: Raleway;
+    z-index: -5;
+    text-align: left;
+}
+
+.title {
+    margin: 200px 0 0 75px;
+}
+
+.title-heading {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+/* 
+.title-shape {
+    position: absolute;
+    left: 40%;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    background-color: #1e88e5;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+}
+ */
+
+.title-shape {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-color: #1e88e5;
+    border-radius: 100px 0 0 0;
+    -moz-border-radius: 700px 0 0 0;
+    -webkit-border-radius: 700px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#features {
+    position: relative;
+    background-color: #1e88e5;
+    box-shadow: 0px 0px 35px 0 rgba( 31, 38, 135, 0.7);
+    padding: 100px 0 100px 0;
+    z-index: 10;
+}
+
+.feature-title {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.feature-box {
+    padding: 3%;
+}
+
+.icon {
+    padding-bottom: 25px;
+    color: #fff;
+    transition: transform 0.6s cubic-bezier(0.87, 0, 0.13, 1);
+}
+.icon-heart {
+    padding-bottom: 25px;
+    color: #fff;
+    transition: all 0.6s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.icon:hover {
+    transform: scale(1.5);
+    transition: 0.5;
+}
+
+.icon-heart:hover {
+    transform: scale(1.5);
+    color: red;
+    transition: 0.5;
+}
+
+
+
+#download {
+    padding: 75px 0 50px 0;
+}
+
+.download-heading {
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+#download .btn-dark {
+    margin-left: 25px;
+}
+
+#impressum {
+    background-color: #343a40;
+    padding: 50px 0 25px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 35px 0 rgba( 31, 38, 135, 0.7);
+    z-index: 10;
+}
